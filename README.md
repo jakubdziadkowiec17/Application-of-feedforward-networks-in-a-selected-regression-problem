@@ -8,7 +8,7 @@ The aim of the project is to create a feedforward artificial neural network mode
 ## Technologies
 - Development environment:
      - Google Colab using Jupyter Notebook
-- Programming language: 
+- Programming language:
      - Python
 - Libraries:
      - Pandas
@@ -24,7 +24,7 @@ The aim of the project is to create a feedforward artificial neural network mode
 - Algorithm:
      - Regression using an artificial neural network with hyperparameter optimization via GridSearchCV
 - Data source:
-     - Boston Housing dataset from Kaggle (CSV file)
+     - Boston House Prices-Advanced Regression Techniques https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data
 
 ## Mounting Google Drive
 ```bash
@@ -33,7 +33,6 @@ drive.mount('/content/drive')
 ```
 
 ## Data Loading
-https://www.kaggle.com/datasets/fedesoriano/the-boston-houseprice-data
 ```bash
 import pandas as pd
 df = pd.read_csv('/content/drive/My Drive/Colab_Files/boston.csv', sep=';')
