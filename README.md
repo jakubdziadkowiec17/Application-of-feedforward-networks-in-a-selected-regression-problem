@@ -2,6 +2,30 @@
 
 ## Selected Regression Problem: Predicting House Prices in Boston
 
+## About project
+The aim of the project is to create a feedforward artificial neural network model capable of predicting house prices based on available data. The model was built using a dataset from Kaggle, which contains features of properties in Boston along with the actual house prices (the MEDV variable). The process included exploratory data analysis, identification of outliers, data standardization, and splitting the data into training and test sets. The model was then trained and its hyperparameters were optimized to improve prediction performance. The model’s effectiveness was evaluated using the MSE, R2, and MAE metrics, and the results were illustrated through various plots and comparisons of actual and predicted values.
+
+## Technologies
+- Development environment:
+     - Google Colab using Jupyter Notebook
+- Programming language: 
+     - Python
+- Libraries:
+     - Pandas
+     - Numpy
+     - Matplotlib
+     - Seaborn
+     - Scikit-learn
+     - Scipy
+- Framework:
+     - Scikit-learn (MLPRegressor – Multi-layer Perceptron)
+- Technology:
+     - Feedforward Neural Network (MLP – Multi-Layer Perceptron)
+- Algorithm:
+     - Regression using an artificial neural network with hyperparameter optimization via GridSearchCV
+- Data source:
+     - Boston Housing dataset from Kaggle (CSV file)
+
 ## Mounting Google Drive
 ```bash
 from google.colab import drive
